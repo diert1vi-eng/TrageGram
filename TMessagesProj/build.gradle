@@ -213,13 +213,13 @@ android {
     }
 
     signingConfigs {
-        release {
-            storeFile project.file("release.keystore")
-            storePassword keystorePwd
-            keyAlias alias
-            keyPassword pwd
-        }
+    release {
+        storeFile project.file("release.keystore")
+        storePassword keystorePwd
+        keyAlias alias
+        keyPassword pwd
     }
+}
 
     buildTypes {
         debug {
